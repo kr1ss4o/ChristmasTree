@@ -1,2 +1,14 @@
-# ChristmasTree
- Christmas Tree
+Задача по ООП - Кръстословица "Коледно дърво".
+
+Използвани технологии:
+1. HTML;
+2. JQuery;
+
+Програмни езици:
+1. CSS;
+2. JavaScript;
+
+Изготвено от:
+ Кристиян Ценов №17 - HTML, CSS, JavaScript;
+ Георги Генчев №13 - HTML, CSS, JavaScript;
+ Боян Копринков №5 - JavaScript;
