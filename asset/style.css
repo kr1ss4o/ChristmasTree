@@ -85,7 +85,7 @@ nav.nav-bar {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Palette */
+/* Main colors palette */
 :root {
     --outline: #02222c;
     --lightbackground: #6bbfa1;
