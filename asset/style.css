@@ -25,6 +25,10 @@ div.tree {
 
     background-color: var(--lightbackground);
     outline: 5px solid var(--outline);
+
+    -webkit-box-shadow: 0px 0px 117px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 117px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 117px -3px rgba(0,0,0,0.75);
 }
 div.quiz {
     /* Quiz container */
@@ -32,6 +36,10 @@ div.quiz {
     flex-direction: column;
     gap: 15px;
     width: 50%;
+
+    -webkit-box-shadow: 0px 0px 117px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 117px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 117px -3px rgba(0,0,0,0.75);
 }
 div.question {
     height: 100%;
