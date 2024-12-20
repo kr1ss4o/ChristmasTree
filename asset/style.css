@@ -1,17 +1,16 @@
 body {
-    padding: 200px 50px 150px 50px;
+    padding: 200px 0px 150px 0px;
     background: url("https://png.pngtree.com/thumb_back/fw800/background/20231231/pngtree-cartoon-styled-wooden-background-with-brown-plank-wood-texture-image_13925751.png");
 }
 div.plot {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 15px;
 }
 div.tree {
     /* Tree container */
     
-    width: 50%;
-    height: 100%;
     border-radius: 20px;
     padding: 75px;
 
@@ -56,7 +55,7 @@ div.answer {
     outline: 5px solid var(--outline);
 }
 
-.nigga{
+.nav-heading{
     text-align:center;
     font-size:52px;
     font-weight: 900;
@@ -90,4 +89,61 @@ nav.nav-bar {
     --outline: #02222c;
     --lightbackground: #6bbfa1;
     --lightred: #e33152;
+}
+
+/* Responsive screen */
+
+@media only screen and (max-width: 1165px) {
+    div.answer, div.question {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    div.input-cont {
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+    }
+    input.answer-input {
+        border-radius: 15px;
+    }
+    button.answer-button, button.hint-button {
+        width: calc(100% - 50px);
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    div.plot {
+        flex-direction: column;
+    }
+    div.quiz {
+        width: 100%;
+    }
+    div.input-cont {
+        flex-direction: row;
+    }
+    input.answer-input {
+        border-radius: 10px 0px 0px 10px;
+    }
+    button.answer-button, button.hint-button {
+        height: 32px;
+        width: 30%;
+        border-radius: 0;
+    }
+    button.hint-button {
+        border-radius: 0px 10px 10px 0px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .nav-heading {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    input {
+        width: 25px;
+        height: 25px;
+    }
 }
